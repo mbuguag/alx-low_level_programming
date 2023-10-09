@@ -10,7 +10,7 @@ int main(void)
 	char jm;
 
 	for (jm = 'a'; jm <= 'z'; jm++)
-		if (jm != e && jm != q)
+		if (jm != 'e' && jm != 'q')
 			putchar(jm);
 	putchar('\n');
 	return (0);
