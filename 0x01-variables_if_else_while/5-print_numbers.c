@@ -11,6 +11,6 @@ int main(void)
 
 	for (jm = 0; jm <= 9; jm++)
 		printf("%d", jm);
-	printf('\n');
+	printf("\n");
 	return (0);
 }
