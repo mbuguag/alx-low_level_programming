@@ -1,11 +1,10 @@
 #include <stdio.h>
- /**
-  * main - entry point
-  *
-  *Description: This is the function that prints numbers 0-9
 
-  * Return: always 0 (success)
-  */
+/**
+*main - main function
+*
+*Return: always 0
+*/
 int main(void)
 {
 	int j;
