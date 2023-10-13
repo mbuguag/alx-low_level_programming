@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - function prints numbers ranging from 1 - 100, but for multiples of three
+ * main - function prints numbers  from 1 - 100, but for multiples of three
  * Fizz is printed instead of the number, for multiples of five,
  *  Buzz, and for multiples of both three and five, FizzBuzz.
  *
@@ -10,7 +10,7 @@
 int main(void)
 {
 	int num;
-	
+
 	for (num = 1; num <= 100; num++)
 	{
 		if ((num % 3) == 0 && (num % 5) == 0)
